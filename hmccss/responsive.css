@@ -44,8 +44,8 @@
 		height: 40px;
 		color: #ababab;
 	}
-	.main__part-viewnow{
-		bottom: calc(var(--viewnow-height) + 10px);
+	.main__part:hover .main__part-viewnow{
+		display: none;
 	}
 	.footer__backgroud-3{
 		width: 42%;
@@ -113,8 +113,8 @@
 		height: 34px;
 		color: #ababab;
 	}
-	.main__part-viewnow{
-		bottom: calc(var(--viewnow-height) + 10px);
+	.main__part:hover .main__part-viewnow{
+		display: none;
 	}
 	.header__head-logo img{
 		height: 62px;
