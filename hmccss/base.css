@@ -1,0 +1,33 @@
+:root{
+	--white-color: #fff;
+	--black-color: #000;
+	--text-color: #333;
+	--viewnow-height: 110px;
+}
+*{
+	box-sizing: inherit;
+}
+html{
+	font-size: 62.5%;
+	line-height: 1.6rem;
+	font-family: 'roboto', san-serif;
+	box-sizing: border-box;
+}
+.grid__colume{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 20%;
+}
+.grid__colume-4{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 33.3334%;
+}
+@keyframes fadein{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
