@@ -466,12 +466,17 @@
     bottom: 15px;
     cursor: pointer;
 }
+.mobilemenu__danhmuc{
+	max-height: 100%;
+	overflow-y: scroll;
+}
 .mobilemenu__danhmuc-list{
 	list-style: none;
 	padding: 0px;
 	margin: 20px 0px 0px;
 }
 .mobilemenu__danhmuc-list-items{
+	display: block;
 	font-size: 2rem;
     font-weight: 500;
     line-height: 60px;
@@ -480,4 +485,8 @@
     background-color: #f7f7f7;
     border-top: 0.5px solid #e8e8e8;
     padding-left: 20px;
+}
+.mobilemenu__danhmuc-list-text{
+	text-decoration: none;
+	color: #4d4d4d;
 }
