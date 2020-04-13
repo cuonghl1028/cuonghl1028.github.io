@@ -490,3 +490,69 @@
 	text-decoration: none;
 	color: #4d4d4d;
 }
+.modal__contain-login{
+	display: flex;
+	justify-content: flex-start;
+}
+.modal__contain-login-text{
+	font-size: 2.2rem;
+	color: #6e6e6e;
+}
+.modal__contain-account{
+	margin-top: 10px;
+}
+.modal__contain-account-username{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.8rem;
+	margin-bottom: 20px;
+}
+.form-label{
+	color: #000000;
+	font-weight: 600;
+	margin: 10px 0px;
+}
+.form-input{
+	outline: none;
+	padding: 8px 0px 8px 10px;
+	border: 1px solid #bcbfc4;
+	border-radius: 2px;
+	color: #111111;
+}
+.form-input:focus{
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+.modal__contain-helpdesk{
+	display: block;
+	margin-top: 10px;
+}
+.modal__contain-helpdesk-rememberpassword{
+	font-size: 1.8rem;
+	color: #000000;
+	font-weight: 600;
+	margin: 0px 0px 10px 0px;
+}
+.modal__contain-helpdesk-login{
+	font-size: 2rem;
+	width: 148px;
+	height: 44px;
+	background-color: #446084;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-weight: 500;
+}
+.modal__contain-helpdesk-login:hover{
+	box-shadow: inset 0 0 0 100px rgba(0,0,0,.2);
+	cursor: pointer;
+}
+.modal__contain-helpdesk-forgetpassword{
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #446084;
+	font-size: 2rem;
+}
+.modal__contain-helpdesk-forgetpassword:hover{
+	color: #000;
+}
