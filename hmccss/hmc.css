@@ -151,10 +151,14 @@
 .header__menu-item-nofity::before{
 	content: "";
     position: absolute;
-    border: 20px solid;
-    border-color: transparent transparent var(--white-color) transparent;
-    top: -29px;
-    left: 10px
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    border-left: 1px solid #89817d;
+    border-top: 1px solid #89817d;
+    transform: rotate(45deg);
+    top: -10px;
+    left: 15px;
 }
 .header__menu-item-nofity-girl{
 	width: 500px;
