@@ -125,4 +125,11 @@
 	.main__part-icon{
 		display: flex;
 	}
+	.btnreload{
+		width: 40px;
+		height: 40px;
+	}
+	.btnreload:hover{
+		background-color: none;
+	}
 }
