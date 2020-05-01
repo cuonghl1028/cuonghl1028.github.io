@@ -3,6 +3,10 @@
 	--black-color: #000;
 	--text-color: #333;
 	--viewnow-height: 110px;
+	--header: 170px;
+	--header-nav: 24px;
+	--header-head: 106px;
+	--header-menu: 38px;
 }
 *{
 	box-sizing: inherit;
@@ -17,6 +21,9 @@ html{
 	padding-left: 12px;
 	padding-right: 12px;
 	width: 20%;
+}
+.fadeIn{
+	animation: fadein ease-in 2s infinite;
 }
 @keyframes fadein{
 	from{
@@ -33,7 +40,7 @@ html{
 	left: 0px;
 	right: 0px;
 	z-index: 10;
-	display: flex;
+	display: none;
 }
 .modal__overlay{
 	position: absolute;
@@ -44,8 +51,20 @@ html{
 .modal__contain{
 	position: relative;
 	margin: auto;
+	top: 0;
 	background-color: #fff;
 	width: 875px;
 	padding: 20px 20px;
 	border: 1px solid rgba(0,0,0,0.4);
+	animation: modalanimate linear 0.2s;
+}
+@keyframes modalanimate{
+	from{
+		top: -2%;
+		opacity: 0;
+	}
+	to{
+		top: 0;
+		opacity: 1;
+	}
 }

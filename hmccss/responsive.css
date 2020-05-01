@@ -63,6 +63,12 @@
 /*mobile*/
 @media only screen and (max-width: 739px)
 {
+	:root{
+		--header: 80px;
+		--header-nav: 14px;
+		--header-head: 66px;
+		--header-menu: 0px;
+	}
 	.header__navbar{
 		height: 14px;
 	}
